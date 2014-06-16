@@ -4,7 +4,7 @@ const coap = require('../')
 describe('blockwise2', function() {
   var server
     , port
-    , payload   = new Buffer(1300)
+    , payload   = new Buffer(1500)
 
   beforeEach(function(done) {
     port = nextPort()
