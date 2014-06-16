@@ -34,7 +34,7 @@ describe('blockwise2', function() {
     })
   })
 
-  it('should use blockwise in response when payload bigger than max packet', function(done) {
+  /*it('should use blockwise in response when payload bigger than max packet', function(done) {
     var req = coap.request({
         port: port
     })
@@ -53,7 +53,7 @@ describe('blockwise2', function() {
     server.on('request', function(req, res) {
       res.end(payload)
     })
-  })
+  })*/
 
   it('should blockwise response have etag', function(done) {
     var req = coap.request({
