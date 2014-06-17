@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "bl": "~0.7.0",
-    "coap-packet": "~0.1.8",
+    "coap-packet": "git://github.com/nqd/coap-packet.git",
     "lru-cache": "~2.5.0",
     "underscore": "^1.6.0"
   }
